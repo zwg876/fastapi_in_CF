@@ -11,9 +11,9 @@ async def on_fetch(request, env):
 app = FastAPI()
 
 
-@app.get("/")
-async def root():
-    return {"message": "Hello, World!"}
+#@app.get("/")
+#async def root():
+#    return {"message": "Hello, World!"}
 
 
 @app.get("/env")
